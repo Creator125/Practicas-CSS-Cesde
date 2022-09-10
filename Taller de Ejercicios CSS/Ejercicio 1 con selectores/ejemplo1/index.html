@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Selectores css</title>
+</head>
+<body>
+    <h1>Selectores</h1> <!--Selector de etiqueta-->
+
+    <div id="ejemplo1">Texto con selector id</div> <!--Selector de id-->
+    <div class="ejemplo2">Texto con selector de clase</div><br> <!--Selector de class-->
+
+    <div class="ejemplo3"> <!--Selector con coma (,)-->
+        <h2>Selector con coma (,)</h2>
+
+        <div class="caja1">Caja1</div>
+        <div class="caja2">Caja2</div>
+    </div><br>
+
+    <div class="ejemplo4"> <!--Selector de atributos-->
+        <h2>Selector de atributos</h2>
+
+        <div class="fondo_caja1">Caja1</div>
+        <div class="fondo_caja2">Caja2</div>
+    </div><br>
+
+    <div class="ejemplo5"> <!--Selector de espacio-->
+        <h2>Selector de espacio</h2>
+
+        <div class="caja3">Caja dentro de &lt;div&gt;</div>
+    </div>
+    <div class="caja3">Caja fuera de &lt;div&gt;</div><br>
+
+    <div class="ejemplo6"> <!--Selector de hijos directos (>)-->
+        <h2>Selector de hijos directos (>)</h2>
+
+        <div class="caja4">Caja dentro de &lt;div&gt;</div>
+        <span><div class="caja4">Caja dentro de &lt;div&gt; pero tambien dentro de &lt;span&gt;</div></span>
+    </div>
+    <div class="caja4">Caja fuera de &lt;div&gt;</div><br>
+
+    <div class="ejemplo7"> <!--Selector de hermanos adyacentes (+)-->
+        <h2>Selector de hermanos adyacentes (+)</h2>
+
+        <div class="caja5">Caja dentro de &lt;div&gt;</div>
+        <span><div class="caja5">Caja dentro de &lt;div&gt; pero tambien dentro de &lt;span&gt;</div></span>
+    </div>
+    <div class="caja5">Caja fuera de &lt;div&gt;</div><br><br>
+
+    <div class="ejemplo8"> <!--Selector general de hermanos (~)-->
+        <h2>Selector general de hermanos (~)</h2>
+
+        <div class="caja6">Caja dentro de &lt;div&gt;</div>
+        <span><div class="caja6">Caja dentro de &lt;div&gt; pero tambien dentro de &lt;span&gt;</div></span>
+    </div>
+    <p>Otro tipo de elemento</p>
+    <div class="caja6">Caja fuera de &lt;div&gt;</div><br>
+
+</body>
+</html>

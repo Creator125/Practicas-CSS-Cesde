@@ -1,0 +1,74 @@
+* { /* Seleccionando todos los elementos*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 { /*Selector de etiqueta*/
+    color: #dc143c;
+}
+
+#ejemplo1 { /* Selector de id*/
+    font-size: 30px;
+    color: #0000ff;
+}
+
+.ejemplo2{
+    font-size: 30px;
+    color: #e48900;
+}
+
+.caja1, .caja2{ /*Selector con comas (,)*/
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+[class ^=fondo] { /*Selector de atributos*/
+    width: 100px;
+    height: 100px;
+    background-color: #e100ff;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ejemplo5 .caja3{ /*Selector de espacio*/
+    width: 100px;
+    height: 100px;
+    background-color: #00ff4c;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ejemplo6 > .caja4{ /*Selector de hijo directo (>)*/
+    width: 100px;
+    height: 100px;
+    background-color: #1900ff;
+    color: #ffffff;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ejemplo7 + .caja5{ /*Selector de hermanos adyacentes (+)*/
+    width: 100px;
+    height: 100px;
+    background-color: #ff0022;
+    color: #ffffff;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.ejemplo8 ~ .caja6{ /*Selector de hermanos adyacentes (+)*/
+    width: 100px;
+    height: 100px;
+    background-color: #00a2ff;
+    color: #000000;
+    border: solid #000000 3px;
+    border-radius: 5px;
+    display: inline-block;
+}

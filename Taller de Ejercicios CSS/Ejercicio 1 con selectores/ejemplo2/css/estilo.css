@@ -1,0 +1,76 @@
+*{ /*Selector de todos los elementos*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{ /*Selector de etiqutas*/
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#contenedor{ /*Selector de id*/
+    background-color: rgb(0, 0, 255,0.5);
+    height: 300px;
+    border-top: solid #000 3px;
+    border-bottom: solid #000 3px;
+}
+
+[class ^=caja]{ /*Selector de atributos*/
+    width: 200px;
+    height: 200px;
+    border: #000 solid 3px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+[class ^=ejemplo]{
+    display: inline-block;
+}
+
+/*Dando estilo a los cubos*/
+.caja_ejemplo{ /*Selector de clases*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+ .caja_ejemplo1 , .caja_ejemplo2{ /*Selector de coma (,)*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.ejemplo3 .caja_ejemplo4{ /*Selector de espacio*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.ejemplo4 > .caja_ejemplo7{ /*Selector de hijos directos (>)*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.ejemplo5 + .caja_ejemplo8{ /*Selector de hermanos adyacentes (+)*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.ejemplo6 ~ .caja_ejemplo9{ /*Selector general de hermanos (~)*/
+    background-image: url(../img/R.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.caja_ejemplo9{
+    width: 96px;
+    height: 96px;
+}
