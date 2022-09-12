@@ -1,14 +1,61 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Selector , */
+span , p
+span + p +p{
+    color: #0000ff;
+} 
+
+/* Selector ~ 
+span ~ p{
+    color: blue;
+} 
+*/
+
+/*
+* p{
+    color: darkviolet;
+}
+*/
+
+/* Selector +
+span + p +p{
+    color: blue;
+}
+*/
+
+/* Selector *
+div *{
+    color: chocolate;
+}
+*/
+
+/* Selector >
+p>span>p{
+    color: blue;
+} 
+*/
+
+/* Selector de espacio
+div p{
+    color: blue;
+} 
+*/
+
+/*
 p{
     color: #00f8f8;
     background-color: black;
 }
 
-.p2{ /* Selector de clases */
+.p2{ /* Selector de clases 
     background-color: #00f8f8;
     color: black;
 }
 
-#p3{ /* Selector de id */
+#p3{ /* Selector de id 
     background-color: blue;
     color: #fff;
 }
@@ -16,3 +63,4 @@ p{
 .derecha{
     text-align: right;
 }
+*/
