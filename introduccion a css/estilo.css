@@ -1,0 +1,18 @@
+p{
+    color: #00f8f8;
+    background-color: black;
+}
+
+.p2{ /* Selector de clases */
+    background-color: #00f8f8;
+    color: black;
+}
+
+#p3{ /* Selector de id */
+    background-color: blue;
+    color: #fff;
+}
+
+.derecha{
+    text-align: right;
+}
