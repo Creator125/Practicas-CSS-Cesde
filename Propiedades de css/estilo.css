@@ -14,7 +14,7 @@
     border-style: solid;
     border-color: #000;
     */
-    border-left: rgb(0, 217, 255) solid 4px;
+    border: rgb(0, 217, 255) double 9px;
    /* border-radius: 50%; */
    border-bottom-left-radius: 50px;
    border-top-right-radius: 50px;
