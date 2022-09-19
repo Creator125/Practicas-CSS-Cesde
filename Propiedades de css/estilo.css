@@ -1,0 +1,41 @@
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4{
+    width: 300px;
+    height: 300px;
+    background-color: #7fffd4;
+}
+
+.caja-2{
+    background-color: #8a2be2;
+    margin: 40px 20px 30px 60px;
+    /*
+    border-style: solid;
+    border-color: #000;
+    */
+    border-left: rgb(0, 217, 255) solid 4px;
+   /* border-radius: 50%; */
+   border-bottom-left-radius: 50px;
+   border-top-right-radius: 50px;
+
+}
+
+.caja-3{
+    background-color: #e2b12b;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 50px;
+
+}
+
+.caja-4{
+    background-color: #2b90e2;
+}
+
+.caja-1 span{
+    background-color: crimson;
+    color: #fff;
+    padding: 60px;
+}
