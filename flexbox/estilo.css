@@ -1,0 +1,44 @@
+.caja-1,
+.caja-2{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    border:  double #000000 5px;
+    margin: 10px auto;
+}
+
+[class ^= "item"]{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+}
+
+.item-1{
+    background-color: rgb(14, 159, 255);
+}
+
+.item-2{
+    background-color: rgb(255, 22, 14);
+}
+
+.item-3{
+    background-color: rgb(255, 10, 255);
+}
+
+/* Iniciando flex box */
+.caja-1,.caja-2{
+    display: flex;
+}
+
+.caja-1{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.caja-2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+}
