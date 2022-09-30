@@ -15,14 +15,17 @@
 
 .item-1{
     background-color: rgb(14, 159, 255);
+    align-self: center;
 }
 
 .item-2{
     background-color: rgb(255, 22, 14);
+    order: -1;
 }
 
 .item-3{
     background-color: rgb(255, 10, 255);
+    align-self: flex-end;
 }
 
 /* Iniciando flex box */
@@ -31,14 +34,22 @@
 }
 
 .caja-1{
+    /*  
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+    align-content: space-between;
+    */
+    flex-direction: row;
+} 
 .caja-2{
     flex-direction: column;
+    /*
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-flow: row wrap-reverse; 
+    */
 }
