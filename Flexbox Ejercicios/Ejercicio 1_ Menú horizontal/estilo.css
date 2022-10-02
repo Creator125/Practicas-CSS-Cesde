@@ -1,0 +1,29 @@
+.menu{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.grupo-1,
+.grupo-2{
+    display: flex;
+}
+
+
+[class *="item"]{
+    margin: 10px;
+}
+
+
+.lang{
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+    margin: 10px;
+    justify-items: center;
+    text-align: center;
+    color: #ffffff;
+}

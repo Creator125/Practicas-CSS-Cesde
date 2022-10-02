@@ -1,0 +1,28 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    height: 50px;
+    background-color: #cfd4d4;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item a{
+    text-decoration: none;
+    background-color: #fafafa;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 400px;
+    height: 300px;
+    align-self: center;
+}
