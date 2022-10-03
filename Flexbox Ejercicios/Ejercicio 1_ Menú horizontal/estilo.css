@@ -1,29 +1,44 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .menu{
     display: flex;
-    height: 50px;
+    height: 100px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
     align-items: center;
+    background-color: #bfffff;
+    border-radius: 5px;
 }
 
-.grupo-1,
-.grupo-2{
+.logo img{
+    width: 150px;
+}
+
+.enlaces ul,
+.botones ul{
+    list-style: none;
     display: flex;
 }
 
-
-[class *="item"]{
-    margin: 10px;
+.enlaces ul li,
+.botones ul li{
+    margin-right: 10px;
 }
 
+.enlaces ul li a,
+.botones ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #464646;
+}
 
-.lang{
-    width: 40px;
-    height: 40px;
-    background-color: darkslategray;
-    margin: 10px;
-    justify-items: center;
-    text-align: center;
+.botones ul li a{
     color: #ffffff;
+    background-color: brown;
+    padding: 7px;
+    border: solid 1px #ffffff;
+    border-radius: 2px;
 }
