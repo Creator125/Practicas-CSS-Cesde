@@ -80,12 +80,99 @@
     justify-content: center;
 }
 
-.flotante .imagenes{
+.flotante .imagenes,
+.slider .imagenes{ /* Estilo de la sesion del slider*/
     display: flex;
     width: 80%;
     justify-content: center;
+    position: absolute;
+    margin-top: -90px;
 }
 
-.flotante .imagenes img{
+.flotante .imagenes img,
+.slider .imagenes img{ /* Estilo de la sesion del slider*/
     width: 200px;
+    margin: 0 10px;
 }
+
+/* Sesion galeria */
+.galeria,
+.blog{ /* Estilo de la sesion del blog*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria .imagenes,
+.blog .contenido, /* Estilo de la sesion del blog*/
+.testimonio article{ /* Estilo de la sesion del testimonio*/
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galeria h2,
+.blog > h2,  /* Estilo de la sesion del blog*/
+.slider > h2{ /* Estilo de la sesion del slider*/
+    font-size: 50px;
+    margin-top: 140px;
+    text-align: center;
+}
+
+.galeria .imagenes figure{
+    margin: 10px;
+}
+
+.galeria .imagenes figure img{
+    width: 250px;
+}
+
+.galeria .imagenes figure figcaption{
+    text-align: center;
+}
+
+/* Sesion blog */
+.blog .contenido{
+    justify-content: space-between;
+}
+
+.blog .contenido article{
+        width: 48%;
+        margin: 5px;
+}
+
+.blog .contenido article img{
+    width: 100%;
+}
+
+/* Sesion slider */
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider .imagenes{
+    position: relative;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Sesion testimonio */
+.testimonio{
+    display: flex;
+    justify-content: center;
+}
+.testimonio article{
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.testimonio article figure img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
