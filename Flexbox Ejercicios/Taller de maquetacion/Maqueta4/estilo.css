@@ -4,6 +4,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    background-color: #e0f2ff;
+}
+
 /* Menu */
 .cabezera{
     width: 100%;
@@ -176,3 +180,19 @@
     margin: 10px;
 }
 
+/* Pie de pagina */
+.pie{
+    margin-top: 100px;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c9fff;
+}
+
+
+.pie .redes img{
+    width: 30px;
+}
