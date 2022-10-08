@@ -1,9 +1,15 @@
 body{
     background-color: #93d9e9;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .caja{
     width: 300px;
