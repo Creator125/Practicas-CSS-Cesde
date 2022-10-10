@@ -110,7 +110,7 @@ body{
 .galeria .imagenes,
 .blog .contenido, /* Estilo de la sesion del blog*/
 .testimonio article{ /* Estilo de la sesion del testimonio*/
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
