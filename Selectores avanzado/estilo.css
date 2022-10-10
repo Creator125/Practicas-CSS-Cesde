@@ -1,0 +1,26 @@
+/* Psudoclases
+.contenedor div:only-child{
+    background-color: #00ffff;
+}
+*/
+
+/*
+.contenedor div:hover{
+    background-color: #00ffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+*/
+
+.contenedor div{
+    display: none;
+}
+
+.contenedor input:focus{
+    background-color: #7fff00;
+    border: 5px solid #ff0000;
+}
+
+.contenedor input[type = "checkbox"]:checked ~ div{
+    display: block;
+}
