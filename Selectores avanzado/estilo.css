@@ -10,7 +10,7 @@
     font-size: 30px;
     font-weight: bold;
 }
-*/
+
 
 .contenedor div{
     display: none;
@@ -23,4 +23,29 @@
 
 .contenedor input[type = "checkbox"]:checked ~ div{
     display: block;
+}
+*/
+
+/*
+.contenedor p::before{
+    content: ":) ";
+    color: #0077ff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contenedor p::after{
+    content: " :(";
+    color: #0077ff;
+    font-size: 30px;
+    font-weight: bold;
+}
+*/
+.contenedor p::first-letter{
+    font-size: 30px;
+    color: blue;
+}
+
+.contenedor p::selection{
+    background-color: aqua;
 }
