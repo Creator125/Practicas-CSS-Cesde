@@ -1,42 +1,68 @@
-.carro{
+.carro-1,
+.carro-2,
+.carro-3,
+.carro-4{
     width: 150px;
     position: relative;
-    /*Registrar animacion*/
-    animation: mover 3s ease;
+    display: block;
 }
 
-/*Animacion para animar el carro*/
-@keyframes mover{
-    /*
+.carro-1{
+    animation: carrera 2s;
+}
+
+.carro-2{
+    animation: carrera 2s;
+}
+
+.carro-3{
+    animation: carrera 2s;
+}
+
+.carro-4{
+    animation: carrera 2s;
+}
+
+@keyframes carrera{
     0%{
         top: 0; left: 0;
     }
-    25%{
-        top: 0; left: 500px;
-    }
-    50%{
-        top: 500px; left: 500px;
-    }
-    75%{
-        top: 500px; left: 0;
-    }
     100%{
-        top: 0; left: 0;
-    }
-    */
-    0%{
-        top: 0; left: 0;
-    }
-    25%{
-        top: 0; left: 500px;
-    }
-    50%{
-        top: 500px; left: 0;
-    }
-    75%{
-        top: 500px; left: 500px;
-    }
-    100%{
-        top: 0; left: 0;
+        top: 0; left: 1000px;
     }
 }
+
+/*Animacion para animar el carro
+@keyframes mover{
+    
+    0%{
+        top: 0; left: 0;
+    }
+    25%{
+        top: 0; left: 500px;
+    }
+    50%{
+        top: 500px; left: 500px;
+    }
+    75%{
+        top: 500px; left: 0;
+    }
+    100%{
+        top: 0; left: 0;
+
+    0%{
+        top: 0; left: 0;
+    }
+    25%{
+        top: 0; left: 500px;
+    }
+    50%{
+        top: 500px; left: 0;
+    }
+    75%{
+        top: 500px; left: 500px;
+    }
+    100%{
+        top: 0; left: 0;
+    }
+}*/
