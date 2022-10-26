@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fondo{
+    background-color: #0f86d6;
+    width: 100%;
+    height: 100vh;
+    /* Agregando animación */
+    animation: fondo 14s linear infinite;
+}
+
+.luna{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("img/luna.png");
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: 50% 50%;
+    top: 30%;
+    left: -110px;
+    /* Agregando animación */
+    animation: luna 14s linear infinite;
+    
+}
+
+
+.montanas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("img/montanas.png");
+    background-repeat: no-repeat;
+    background-position: 1px 100%;
+    background-size: 100%;
+    z-index: 4;
+    /* Agregando animación */
+    animation: iluminacion 14s linear infinite;
+}
+
+@keyframes luna{
+    0%{
+        left: -110;
+        top: 38%;
+    }
+    50%{
+        left: 50%;
+        top: 5%;
+    }
+    100%{
+        left: calc(100% + 10px);
+        top: 30%
+    }
+}
+
+@keyframes fondo{
+    0%{
+        background-color: #0f86d6;
+    }
+    25%{
+        background-color: #030150;
+    }
+    50%{
+        background-color: #000000;
+    }
+    70%{
+        background-color: #030150;
+    }
+    100%{
+        background-color: #0f86d6;
+    }
+}
+
+@keyframes iluminacion{
+    0%{
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(50%);
+    }
+    50%{
+        filter: brightness(5%);
+    }
+    70%{
+        filter: brightness(50%);
+    }
+    100%{
+        filter: brightness(100%)
+    }
+}
