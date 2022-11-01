@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Diseño general*/
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    flex-direction: column;
+}
+
+.cabecera{
+    width: 100%;
+    height: 70px;
+    background-color: #80f1f1;
+    border: black 2px solid;
+}
+
+/*Parte pricipal*/
+.principal{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+    margin-top: 3px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    /*Barra lateral*/
+.principal .lateral{
+    background-color: transparent;
+    width: 29%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.principal .lateral .caja-1{
+    width: 100%;
+    height: 69%;
+    background-color: #0000ff;
+    border: black 2px solid;
+}
+
+.principal .lateral .caja-2{
+    width: 100%;
+    height: 29%;
+    background-color: #5f5fff;
+    border: black 2px solid;
+}
+    /*Contenido*/
+.principal .contenido{
+    width: 69%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.principal .contenido .caja-1{
+    background-color: #07ffde;
+    width: 100%;
+    height: 78%;
+    border: black 2px solid;
+}
+
+.principal .contenido .caja-2{
+    background-color: #00524b;
+    border: black 2px solid;
+    width: 100%;
+    height: 20%;
+}
+
+/*Pie*/
+.pie{
+    width: 100%;
+    height: 60px;
+    background-color: #80f1f1;
+    margin-top: 3px;
+    border: black 2px solid;
+}
+
+/*Diseño telefonos moviles*/
+@media (max-width: 768px) and (min-width: 320px){
+    .contenedor{
+        height: 100vh;
+    }
+
+    /*Parte pricipal*/
+    .principal{
+        flex-direction: column;
+    }
+
+        /*Barra lateral*/
+    .principal .lateral{
+        width: 100%;
+        height: 40%;
+        order: 1;
+        margin-top: 5px;
+    }
+
+    .principal .lateral .caja-1{
+        height: 55%;
+    }
+
+    .principal .lateral .caja-2{
+        height: 43%;
+    }
+
+        /*Contenido*/
+    .principal .contenido{
+        width: 100%;
+        height: 100%;
+    }
+}
