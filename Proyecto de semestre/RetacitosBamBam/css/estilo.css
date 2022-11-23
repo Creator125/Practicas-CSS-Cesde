@@ -1,0 +1,37 @@
+/* Barra de navegacion*/
+
+.sesion-nav{
+    background-color: #9e4029;
+}
+
+.sesion-nav a img{
+    width: 100px;
+}
+
+.sesion-nav .contenedor{
+    padding: 0;
+}
+
+.sesion-nav .enlaces{
+    justify-content: center;
+}
+
+.sesion-nav .enlaces ul{
+    background-color: transparent;
+    padding: 5px;
+}
+
+.sesion-nav .enlaces ul li{
+    padding: 3px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.sesion-nav .enlaces ul li:hover{
+    background-color: #d48571;
+    border-radius: 5px;
+}
+
+.sesion-nav .enlaces ul li a{
+    color: #000000;
+}
