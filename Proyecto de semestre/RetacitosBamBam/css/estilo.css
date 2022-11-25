@@ -30,7 +30,7 @@
 }
 
 .sesion-nav .enlaces ul li:hover{
-    background-color: #a4f89d;
+    background-color: #ff6e54;
     border-radius: 5px;
 }
 
@@ -91,7 +91,23 @@
     text-align: justify;
 }
 
-.destacados .contenido .item button{
-    margin-top: 30px !important;
-    border-color: #a4f89d;
+.destacados button{
+    margin-top: 30px;
+    border-color: #ff6e54;
+    color: #ff6e54;
+}
+
+.destacados button:hover{
+    background-color: #ff6e54;
+    border-color: #ff6e54;
+}
+ 
+
+/* Sesion referencias */
+.referencias{
+    margin-top: 30px;
+}
+
+.referencias h2{
+    text-align: center;
 }
