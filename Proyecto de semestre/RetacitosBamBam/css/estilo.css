@@ -75,15 +75,15 @@
 }
 
 .destacados .contenido .item .imagen-1{
-    background-image: url("/img/img1.jpg");
+    background-image: url("../img/img1.jpg");
 }
 
 .destacados .contenido .item .imagen-2{
-    background-image: url("/img/img2.jpg");
+    background-image: url("../img/img2.jpg");
 }
 
 .destacados .contenido .item .imagen-3{
-    background-image: url("/img/img3.jpg");
+    background-image: url("../img/img3.jpg");
 }
 
 .destacados .contenido .item .text{
@@ -116,7 +116,7 @@
 
 .referencias .imagenes .item{
     background-color: #00ffff;
-    background-image: url(/img/perfil.jpg);
+    background-image: url(../img/perfil.jpg);
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
