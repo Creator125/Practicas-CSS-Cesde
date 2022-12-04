@@ -1,0 +1,98 @@
+a{
+    color: inherit;
+}
+
+.container > .row{
+    margin-bottom: 3rem;
+}
+
+/* Nav */
+.barra_navegacion .active{
+    text-decoration: underline solid blue;
+    text-underline-offset: 8px;
+}
+
+.barra_navegacion .logo img{
+    width: 100px;
+}
+
+/* Header */
+header .redes-sociales > a{
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s filter;
+}
+
+header .redes-sociales > a:hover{
+    filter: opacity(0.5);
+}
+
+.foto-present{
+    font-size: 20px;
+}
+
+.foto-present::before, .foto-present::after{
+    content: "";
+    display: block;
+    width:  var(--box-size);
+    height: var(--box-size);
+    position: absolute;
+    z-index: -10;
+    animation: rotacion1 7s linear alternate-reverse infinite;
+}
+
+.foto-present::before{
+    --box-size: 3em;
+    /* background-image: radial-gradient(
+        var(--color-blue-medium)50%, 
+        var(--color-yellow)50%); */
+    background-image: radial-gradient(
+        #00ff22 50%, 
+        #ffc400 50%);
+    top: calc(99% - (var(--box-size) / 2));
+    right: calc(99% - (var(--box-size) / 2)); 
+}
+
+.foto-present::after{
+    --box-size: 5em;
+    bottom: calc(98% - (var(--box-size) / 2));
+    left: calc(98% - (var(--box-size) / 2));;
+    /* background-image: linear-gradient(
+        var(--gris-medium)50%, 
+        transparent 50%);
+    background-image: radial-gradient(
+        var(--color-blue-medium)50%, 
+        var(--color-yellow)50%); */
+        background-image: linear-gradient(
+            45deg,
+            #fcfcfc 45%, 
+            transparent 45%
+            ),
+            radial-gradient(
+            #0000ff 30%, 
+            #00ff22 30% 70%,
+            gray 70%,
+            transparent 70%);
+}
+
+@keyframes rotacion1{
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+.presentacion{
+    min-height: 100vh;
+}
+
+/* Sesion de servicios */
+.sec-servicios .iconos{
+    --box-size: 70px;
+    width: var(--box-size);
+    height: var(--box-size);
+}
