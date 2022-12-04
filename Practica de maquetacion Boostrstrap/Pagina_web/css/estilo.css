@@ -16,8 +16,12 @@ a{
     width: 100px;
 }
 
+.nav > a{
+    color: black;
+}
+
 /* Header */
-header .redes-sociales > a{
+.redes-sociales > a{
     --size: 40px;
     width: var(--size);
     height: var(--size);
@@ -25,10 +29,16 @@ header .redes-sociales > a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+header .redes-sociales > a:hover,
+.sec-clientes > a:hover{
     transition: 0.5s filter;
 }
 
-header .redes-sociales > a:hover{
+
+.redes-sociales > a:hover,
+.sec-clientes > a:hover{
     filter: opacity(0.5);
 }
 
@@ -53,7 +63,7 @@ header .redes-sociales > a:hover{
         var(--color-yellow)50%); */
     background-image: radial-gradient(
         #00ff22 50%, 
-        #ffc400 50%);
+        #ff7171 50%);
     top: calc(99% - (var(--box-size) / 2));
     right: calc(99% - (var(--box-size) / 2)); 
 }
@@ -86,7 +96,7 @@ header .redes-sociales > a:hover{
     }
 }
 
-.presentacion{
+.header-main{
     min-height: 100vh;
 }
 
@@ -95,4 +105,35 @@ header .redes-sociales > a:hover{
     --box-size: 70px;
     width: var(--box-size);
     height: var(--box-size);
+}
+
+/* Sesion de portafolio */
+.item-potafolio > img{
+    transition: 0.4s transform;
+}
+
+.item-potafolio:hover > img{
+    transform: scale(0.96);
+}
+
+/* Seccion clientes */
+.fondo-sec-clientes{
+    background-color: #4bffc39a;
+    filter: opacity(0.55);
+}
+
+
+@media screen and (max-width: 376px){
+    body{
+        margin-top: 4rem;
+    }
+
+    /* Header */
+    .header-main{
+        height: initial;
+    }
+
+    .foto-present{
+        font-size: 11px;
+    }
 }
