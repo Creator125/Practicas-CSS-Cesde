@@ -137,3 +137,9 @@ header .redes-sociales > a:hover,
         font-size: 11px;
     }
 }
+
+@media screen and (max-width: 686px){
+    body{
+        margin-top: 6rem;
+    }
+}
