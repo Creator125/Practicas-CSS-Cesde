@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Carousel simple -->
+        <div class="contenedor container-fluid">
+            <div class="row row-cols-1">
+                <h1 class="text-center">Carrusel</h1>
+            </div>
+            
+            <!-- Carousel -->
+            <div class="carousel slide carousel-fade" id="carousel-01" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Diapositiva 1 -->
+                    <div class="carousel-item active" data-interval="50">
+                        <img src="img/img1.jpg" class="d-block w-100">
+                    </div>
+            
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img2.jpg" class="d-block w-100">
+                    </div>
+            
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img3.jpg" class="d-block w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel con controles -->
+        <div class="contenedor container-fluid">
+            <div class="row row-cols-1">
+                <h1 class="text-center">Carrusel con controles</h1>
+            </div>
+
+            <!-- Carousel -->
+            <div class="carousel slide carousel-fade" id="carousel-02" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Diapositiva 1 -->
+                    <div class="carousel-item active" data-interval="50">
+                        <img src="img/img1.jpg" class="d-block w-100">
+                    </div>
+            
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img2.jpg" class="d-block w-100">
+                    </div>
+            
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img3.jpg" class="d-block w-100">
+                    </div>
+                </div>
+            
+                <!-- Controles -->
+                <a href="#carousel-02" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only visually-hidden"></span>
+                </a>
+                <a href="#carousel-02" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only visually-hidden"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Carousel con texto -->
+        <div class="contenedor container-fluid">
+            <div class="row row-cols-1">
+                <h1 class="text-center">Texto en diapositiva de carrusel</h1>
+            </div>
+
+            <!--Carousel-->
+            <div class="carousel slide carousel-fade" id="carousel-03" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Diapositiva 1 -->
+                    <div class="carousel-item active" data-interval="50">
+                        <img src="img/img1.jpg" class="d-block w-100">
+                    </div>
+            
+                    <!-- Diapositiva 2 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img2.jpg" class="d-block w-100">
+                        <div class="carousel-caption caption-top">
+                            <h2 >Globo aerostático</h2>
+                            <p>Tambien se llama globo de aire caliente, aunque
+                                es una areonave, flota en realidad dentro del viento
+                                ; en que el aire caliente pesa menos que el aire frio
+                                tendiendo poe ello a subir.
+                            </p>
+                        </div>
+                    </div>
+            
+                    <!-- Diapositiva 3 -->
+                    <div class="carousel-item" data-interval="50">
+                        <img src="img/img3.jpg" class="d-block w-100">
+                    </div>
+                </div>
+            
+                <!-- Controles -->
+                <a href="#carousel-03" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only visually-hidden"></span>
+                </a>
+                <a href="#carousel-03" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only visually-hidden"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS-->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

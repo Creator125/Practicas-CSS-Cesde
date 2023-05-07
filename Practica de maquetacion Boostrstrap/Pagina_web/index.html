@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Prctica Bootstrap</title>
+</head>
+<body class="bg-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light barra_navegacion">
+        <div class="container">
+            <!--Logo-->
+            <a href="#" class="navbar-brand logo">
+                <img src="img/logo.png">
+            </a>
+            
+            <!--Boton-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Barra de navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!--Items-->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="nav ms-auto text-dark flex-column flex-md-row">
+                    <a href="index.html" class="nav-link active">Inicio</a>
+                    <a href="#" class="nav-link">Contactos</a>
+                    <a href="#" class="nav-link">Portafolio</a>
+                    <a href="#" class="nav-link">Servicio</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <!--Contenido-->
+    <div class="container">
+        <!--Header-->
+        <header class="row align-items-center header-main justify-content-center">
+            <div class="col-md-7 text-center text-md-start">
+                <!--Saludo-->
+                <h1 class="display-2">
+                    <span class="d-block">Hola</span>
+                    Soy Obed
+                </h1>
+                <!--Ocupacion-->
+                <p class="text-muted-fw-light">Desarrollo de software, diseño gráfico e ilustración</p>
+                <!--Redes sociales-->
+                <div class="d-none d-md-block redes-sociales">
+                    <a href="#" class="mx-3"><img src="img/icons/facebook.svg"></a>
+                    <a href="#" class="mx-3"><img src="img/icons/github.svg" alt=""></a>
+                    <a href="#" class="mx-3"><img src="img/icons/deviantart.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-8 col-md-4">
+                <div class="foto-present position-relative shadow">
+                    <img src="img/presentacion.jpeg" class="w-100">
+                </div>
+            </div>
+        </header>
+
+        <!-- servicios -->
+        <section class="row justify-content-around text-center sec-servicios" id="servicios">
+            <!-- titulo -->
+            <h2 class="col-12 display-4 text-capitalize mb-3">
+                Trabajos
+            </h2>
+            <!-- tarjeta 1 -->
+            <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-md-0">
+                <!--Icono-->
+                <img src="img/icons/code-slash.svg" alt="..." class="bg-primary bg-gradient d-inlinel-bloc rounded-circle mb-3 iconos">
+                <!--Titulo-->
+                <h2 class="text-capitalize">Progamacion</h2>
+                <!--Descripcion-->
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                </p>
+                <!--Boton-->
+                <a href="#" class="btn btn-outline-primary">Vamos</a>
+            </article>
+            <!-- tarjeta 2 -->
+            <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-md-0">
+                <!--Icono-->
+                <img src="img/icons/cursor.svg" alt="..." class="bg-danger bg-gradient d-inlinel-bloc rounded-circle mb-3 iconos">
+                <!--Titulo-->
+                <h2 class="text-capitalize">Diseño grafico</h2>
+                <!--Descripcion-->
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                </p>
+                <!--Boton-->
+                <a href="#" class="btn btn-outline-danger">Vamos</a>
+            </article>
+            <!-- tarjeta 3 -->
+            <article class="col-10 col-md-10 col-lg-3 bg-white rounded shadow p-3 fw-light mb-3 mb-md-0">
+                <!--Icono-->
+                <img src="img/icons/pencil.svg" alt="..." class="bg-warning bg-gradient d-inlinel-bloc rounded-circle mb-3 iconos">
+                <!--Titulo-->
+                <h2 class="text-capitalize">Ilustracion</h2>
+                <!--Descripcion-->
+                <p class="text-muted">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit.
+                </p>
+                <!--Boton-->
+                <a href="#" class="btn btn-outline-warning">Vamos</a>
+            </article>
+        </section>
+        <br>
+
+        <section class="row justify-content-center text-center text-md-start">
+            <!--Titulo-->
+            <h2 class="col-md-4 text-center display-4">
+                Mas de mi
+            </h2>
+            <!--Infomación-->
+            <div class="col-10 col-md-10 text-center">
+                <p class="text-muted fw-light">
+                    Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Modi harum assumenda laboriosam.
+                     Sequi magnam nisi deserunt vel laboriosam similique,
+                      ut porro exercitationem aperiam possimus. 
+                    Labore possimus deleniti dolorum molestiae facere!
+                </p>
+                <a href="#" download="CV Obed" class="btn btn-success rounded-pill px-4">
+                    Descargar hoja de vida
+                </a>
+            </div>
+        </section>
+
+        <hr>
+
+        <!--Portafolio-->
+        <main class="row justify-content-center pt-5 sec-portafolio">
+            <!--Columna 1-->
+            <div class="col-10 col-md-4 order-2 order-md-1">
+                <div class="row">
+                    <!-- img 1 -->
+                    <a href="" class="col-12 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-02.jpg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                    <!-- img 2 -->
+                    <a href="" class="col-12 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-03.jpeg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                    <!-- img 3 -->
+                    <a href="" class="col-12 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-01.jpeg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                </div>
+            </div>
+            <!--Columna 2-->
+            <div class="col-10 col-md-8 order-1 order-md-2">
+                <div class="row">
+                    <h2 class="col-10 py-3 text-center text-md-end display-4">
+                        Portafolio
+                    </h2>
+                    <!--Img 1-->
+                    <a href="" class="col-12 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-05.jpg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                    <!--Img 2-->
+                    <a href="" class="col-12 col-md-6 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-04.jpg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                    <!--Img 3-->
+                    <a href="" class="col-12 col-md-6 mb-3 item-potafolio" data-bs-toggle="modal" data-bs-target="#modal-portfolio">
+                        <img src="img/portfolio/Portfolio-06.jpg" alt="..." class="w-100 img-btn-modal">
+                    </a>
+                </div>
+            </div>
+            <!--Modal general-->
+            <div class="col-9 modal fade" id="modal-portfolio">
+                <div class="modal-dialog position-relative modal-dialog-centered">
+                    <img src="" alt=".." class="w-100 img-modal">
+                </div>
+            </div>
+
+        </main>
+
+
+    </div>
+
+    <!--Clientes-->
+    <div class="fondo-sec-clientes d-none d-md-block">
+        <!--Marcas-->
+        <div class="container">
+            <div class="row align-items-center justify-content-around py-5 sec-clientes">
+                <!--Elemento 1-->
+                <a href="#" class="col-sm-5 col-md-3">
+                    <img src="img/clientes/aerospike.svg" alt="aerospike" class="w-75">
+                </a>
+                <!--Elemento 2-->
+                <a href="#" class="col-sm-5 col-md-3">
+                    <img src="img/clientes/dashlane.svg" alt="dashlane" class="w-75">
+                </a>
+                <!--Elemento 3-->
+                <a href="#" class="col-sm-5 col-md-3">
+                    <img src="img/clientes/kong.svg" alt="kong" class="w-75">
+                </a>
+                <!--Elemento 4-->
+                <a href="#" class="col-sm-5 col-md-3">
+                    <img src="img/clientes/typo3.svg" alt="typo3" class="w-75">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Contacto-->
+        <section class="row justify-content-center">
+            <div class="col-9 col-lg-7 bg-white text-center py-4 px-3 shadow position-relative foto-present">
+                <p class="h6 text-muted fw-light">
+                    Contacto
+                </p>
+                <a href="mailto:obedagualimpia1@gmail.com" class="h3 text-decoration-none text-break">
+                    obedagualimpia1@gmail.com
+                </a>
+            </div>
+        </section>
+        <!--Navbar-->
+        <div class="row justify-content-center text-center">
+            <!--Logo-->
+            <a href="#" class="navbar-brand logo">
+                <img src="img/logo.png">
+            </a>
+            <!--Items-->
+            <nav class="nav col-11 justify-content-center mb-4">
+                <a href="index.html" class="nav-link active">Inicio</a>
+                <a href="#" class="nav-link">Contactos</a>
+                <a href="#" class="nav-link">Portafolio</a>
+                <a href="#" class="nav-link">Servicio</a>
+            </nav>
+            <!--Redes sociales-->
+            <div class="redes-sociales">
+                <a href="#" class="mx-3"><img src="img/icons/facebook.svg"></a>
+                <a href="#" class="mx-3"><img src="img/icons/github.svg" alt=""></a>
+                <a href="#" class="mx-3"><img src="img/icons/deviantart.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Pie de pagina-->
+    <footer class="fondo-sec-clientes text-center p-4"> &copy; Todos los derechos reservados </footer>
+
+    <script src="js/bootstrap.js"> </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
