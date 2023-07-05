@@ -104,3 +104,9 @@ Estas son practicas, ejecicios y actividades en el lenguage CSS heraboradas en l
   
 - La propiedad image-rendering
   - https://www.w3docs.com/learn-css/image-rendering.html
+
+##### Variables
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+
+- http://w3.unpocodetodo.info/css3/variables-css.php
